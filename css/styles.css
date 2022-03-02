@@ -1,0 +1,129 @@
+body {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+
+}
+
+h2 {
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.div-suprema {
+    border-radius: 15px;
+    background-color: white;
+    width: 450px;
+    margin: 100px auto 20px auto;
+}
+
+.pessoa-musica{
+    border-radius: 15px 15px 0 0 ;
+}
+
+.description {
+    padding: 0 50px 0 50px;
+
+}
+
+.middle-container {
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 50px 0 50px;
+    border-radius: 15px;
+    position: relative;
+    height: 88px;
+}
+
+.icon-music{
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    
+}
+
+.annual-plan {
+    position: absolute;
+    left: 88px;
+    font-weight: 700;
+    color: black;
+}
+
+.price {
+    position: absolute;
+    left: 88px;
+    top: 30px;
+}
+
+.hiperlink {
+    position: absolute;
+    right: 20px;
+    top: 33.25px;
+}
+
+
+.bottom-container{
+    margin: 16px 0 16px 0;
+    position: relative;
+    height: 120px;
+}
+
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 14px 23px #b0b4eb;
+    -moz-box-shadow: 10px 14px 23px #b0b4eb;
+    box-shadow: 10px 14px 23px #b0b4eb;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    background: hsl(245, 75%, 52%);
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    margin: 10px auto 10px auto;
+    position: absolute;
+    right: 119.53px;
+  }
+  
+  .btn:hover {
+    background: hsl(224, 23%, 55%);
+    text-decoration: none;
+  }
+
+  .cancel {
+      position: absolute;
+      top: 60px;
+      margin: 10px auto 10px auto;
+      text-decoration: none;
+      color: hsl(224, 23%, 55%);
+      font-family: "Red Hat Display";
+      font-weight: 700;
+      right: 181.329px;
+      font-size: 14px;
+  }
+
+  .cancel:hover {
+      color: hsl(245, 75%, 52%);
+  }
+.attribution {
+    font-size: 5px;
+}
+
+.foot {
+    display: inline;
+    margin-top: 10px;
+    color: black;
+    font-size: 10px;
+}
